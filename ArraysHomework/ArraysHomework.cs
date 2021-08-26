@@ -83,14 +83,6 @@ namespace ArraysHomework
             Assert.IsTrue(myList[1] == 35);
             Assert.IsTrue(myList[2] == 78);
 
-            // fill all of the values in to make the loop following pass. Do not edit the loop that asserts the values == 10; 
-            // hint you need some form of repetition.
-
-            foreach(int item in myList)
-            {
-                Assert.IsTrue(item == 10);
-            }
-
             // what wrong with this list declaration? You can use any type for its content. Fix it and make it compile
             List stringList = List;
 
@@ -109,8 +101,8 @@ namespace ArraysHomework
 
             Assert.IsTrue(copiedList.Count == copyMe.Count);
             Assert.IsTrue(copiedList[0] == 'a');
-            Assert.IsTrue(copiedList[0] == 'b');
-            Assert.IsTrue(copiedList[0] == 'c');
+            Assert.IsTrue(copiedList[1] == 'b');
+            Assert.IsTrue(copiedList[2] == 'c');
 
             // Swap the last and first value of this list.
             List<string> swapMyValues = new List<string> { "first", "middle", "last" };
