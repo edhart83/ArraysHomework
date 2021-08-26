@@ -19,7 +19,7 @@ namespace ArraysHomework
             Assert.IsTrue(myArray[50] == 35);
             Assert.IsTrue(myArray[68] == 78);
 
-            // fill all of the values in to make the loop on line 24 pass as is. Do not edit lines 24 through 27
+            // fill all of the values in to make the loop on line 24 pass as is. Do not edit the loop that assert the passing case
 
             // hint you need some form of repetition.
             for(int i = 0; i < myArray.Length; i++)
@@ -43,8 +43,8 @@ namespace ArraysHomework
           
             Assert.IsTrue(copiedArray.Length == copyMe.Length);
             Assert.IsTrue(copiedArray[0] == 'a');
-            Assert.IsTrue(copiedArray[0] == 'b');
-            Assert.IsTrue(copiedArray[0] == 'c');
+            Assert.IsTrue(copiedArray[1] == 'b');
+            Assert.IsTrue(copiedArray[2] == 'c');
 
             // Swap the last and first value of this array.
             string[] swapMyValues = { "first", "middle", "last" };
