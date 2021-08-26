@@ -128,12 +128,12 @@ namespace ArraysHomework
             for (; up < 25 && down >= 0; up++, down--)
             {
                 copy1.Add(up);
-                copy1.Add(down);
+                copy2.Add(down);
             }
 
-            // combine copy1 and copy2 into an list named combined
+            // combine copy1 into copy 2
 
-            Assert.IsTrue(combined.Count == 50);
+            Assert.IsTrue(copy2.Count == 50);
 
 
             // This is just a fun little section to explore the various methods on a list object.
