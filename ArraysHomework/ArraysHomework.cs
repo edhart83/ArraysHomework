@@ -148,7 +148,7 @@ namespace ArraysHomework
 
             // BONUS Convert sortMe to an array
 
-            // BONUS Check if sortMe Contains 2.
+            // BONUS Check if sortMe Contains the value 2.
 
             // BONUS Remove all of sort mes values
 
