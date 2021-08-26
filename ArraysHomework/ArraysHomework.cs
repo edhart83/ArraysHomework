@@ -83,7 +83,7 @@ namespace ArraysHomework
             Assert.IsTrue(myList[1] == 35);
             Assert.IsTrue(myList[2] == 78);
 
-            // fill all of the values in to make the loop on line 24 pass as is. Do not edit lines 24 through 27
+            // fill all of the values in to make the loop following pass. Do not edit the loop that asserts the values == 10; 
             // hint you need some form of repetition.
 
             foreach(int item in myList)
