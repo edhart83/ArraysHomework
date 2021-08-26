@@ -118,7 +118,7 @@ namespace ArraysHomework
             Assert.IsTrue(swapMyValues[0] == "last");
             Assert.IsTrue(swapMyValues[2] == "first");
 
-            //Combine these two lists into a 3rd list;
+            //Combine these two lists by absorbing copy1 into copy2;
             List<int> copy1 = new List<int>();
             List<int> copy2 = new List<int>();
 
