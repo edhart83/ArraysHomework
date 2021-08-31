@@ -11,8 +11,7 @@ namespace ArraysHomework
         {
             // Create an array of ints of size 100
             int[] myArray = new int[100];
-            Assert.IsTrue(myArray.Length == 10);
-
+            Assert.IsTrue(myArray.Length == 100);
         }
     }
 }
